@@ -1,0 +1,639 @@
+models:
+    export:
+        models:
+            matrix_pinky_bottom:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 121
+                            - -141
+                        end:
+                            - 139
+                            - -141
+                    right:
+                        type: line
+                        origin:
+                            - 139
+                            - -141
+                        end:
+                            - 139
+                            - -159
+                    bottom:
+                        type: line
+                        origin:
+                            - 139
+                            - -159
+                        end:
+                            - 121
+                            - -159
+                    left:
+                        type: line
+                        origin:
+                            - 121
+                            - -159
+                        end:
+                            - 121
+                            - -141
+                origin:
+                    - 0
+                    - 0
+            matrix_pinky_home:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 121
+                            - -122
+                        end:
+                            - 139
+                            - -122
+                    right:
+                        type: line
+                        origin:
+                            - 139
+                            - -122
+                        end:
+                            - 139
+                            - -140
+                    bottom:
+                        type: line
+                        origin:
+                            - 139
+                            - -140
+                        end:
+                            - 121
+                            - -140
+                    left:
+                        type: line
+                        origin:
+                            - 121
+                            - -140
+                        end:
+                            - 121
+                            - -122
+                origin:
+                    - 0
+                    - 0
+            matrix_pinky_top:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 121
+                            - -103
+                        end:
+                            - 139
+                            - -103
+                    right:
+                        type: line
+                        origin:
+                            - 139
+                            - -103
+                        end:
+                            - 139
+                            - -121
+                    bottom:
+                        type: line
+                        origin:
+                            - 139
+                            - -121
+                        end:
+                            - 121
+                            - -121
+                    left:
+                        type: line
+                        origin:
+                            - 121
+                            - -121
+                        end:
+                            - 121
+                            - -103
+                origin:
+                    - 0
+                    - 0
+            matrix_ring_bottom:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 140
+                            - -133
+                        end:
+                            - 158
+                            - -133
+                    right:
+                        type: line
+                        origin:
+                            - 158
+                            - -133
+                        end:
+                            - 158
+                            - -151
+                    bottom:
+                        type: line
+                        origin:
+                            - 158
+                            - -151
+                        end:
+                            - 140
+                            - -151
+                    left:
+                        type: line
+                        origin:
+                            - 140
+                            - -151
+                        end:
+                            - 140
+                            - -133
+                origin:
+                    - 0
+                    - 0
+            matrix_ring_home:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 140
+                            - -114
+                        end:
+                            - 158
+                            - -114
+                    right:
+                        type: line
+                        origin:
+                            - 158
+                            - -114
+                        end:
+                            - 158
+                            - -132
+                    bottom:
+                        type: line
+                        origin:
+                            - 158
+                            - -132
+                        end:
+                            - 140
+                            - -132
+                    left:
+                        type: line
+                        origin:
+                            - 140
+                            - -132
+                        end:
+                            - 140
+                            - -114
+                origin:
+                    - 0
+                    - 0
+            matrix_ring_top:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 140
+                            - -95
+                        end:
+                            - 158
+                            - -95
+                    right:
+                        type: line
+                        origin:
+                            - 158
+                            - -95
+                        end:
+                            - 158
+                            - -113
+                    bottom:
+                        type: line
+                        origin:
+                            - 158
+                            - -113
+                        end:
+                            - 140
+                            - -113
+                    left:
+                        type: line
+                        origin:
+                            - 140
+                            - -113
+                        end:
+                            - 140
+                            - -95
+                origin:
+                    - 0
+                    - 0
+            matrix_middle_bottom:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 159
+                            - -127
+                        end:
+                            - 177
+                            - -127
+                    right:
+                        type: line
+                        origin:
+                            - 177
+                            - -127
+                        end:
+                            - 177
+                            - -145
+                    bottom:
+                        type: line
+                        origin:
+                            - 177
+                            - -145
+                        end:
+                            - 159
+                            - -145
+                    left:
+                        type: line
+                        origin:
+                            - 159
+                            - -145
+                        end:
+                            - 159
+                            - -127
+                origin:
+                    - 0
+                    - 0
+            matrix_middle_home:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 159
+                            - -108
+                        end:
+                            - 177
+                            - -108
+                    right:
+                        type: line
+                        origin:
+                            - 177
+                            - -108
+                        end:
+                            - 177
+                            - -126
+                    bottom:
+                        type: line
+                        origin:
+                            - 177
+                            - -126
+                        end:
+                            - 159
+                            - -126
+                    left:
+                        type: line
+                        origin:
+                            - 159
+                            - -126
+                        end:
+                            - 159
+                            - -108
+                origin:
+                    - 0
+                    - 0
+            matrix_middle_top:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 159
+                            - -89
+                        end:
+                            - 177
+                            - -89
+                    right:
+                        type: line
+                        origin:
+                            - 177
+                            - -89
+                        end:
+                            - 177
+                            - -107
+                    bottom:
+                        type: line
+                        origin:
+                            - 177
+                            - -107
+                        end:
+                            - 159
+                            - -107
+                    left:
+                        type: line
+                        origin:
+                            - 159
+                            - -107
+                        end:
+                            - 159
+                            - -89
+                origin:
+                    - 0
+                    - 0
+            matrix_index_bottom:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 178
+                            - -133
+                        end:
+                            - 196
+                            - -133
+                    right:
+                        type: line
+                        origin:
+                            - 196
+                            - -133
+                        end:
+                            - 196
+                            - -151
+                    bottom:
+                        type: line
+                        origin:
+                            - 196
+                            - -151
+                        end:
+                            - 178
+                            - -151
+                    left:
+                        type: line
+                        origin:
+                            - 178
+                            - -151
+                        end:
+                            - 178
+                            - -133
+                origin:
+                    - 0
+                    - 0
+            matrix_index_home:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 178
+                            - -114
+                        end:
+                            - 196
+                            - -114
+                    right:
+                        type: line
+                        origin:
+                            - 196
+                            - -114
+                        end:
+                            - 196
+                            - -132
+                    bottom:
+                        type: line
+                        origin:
+                            - 196
+                            - -132
+                        end:
+                            - 178
+                            - -132
+                    left:
+                        type: line
+                        origin:
+                            - 178
+                            - -132
+                        end:
+                            - 178
+                            - -114
+                origin:
+                    - 0
+                    - 0
+            matrix_index_top:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 178
+                            - -95
+                        end:
+                            - 196
+                            - -95
+                    right:
+                        type: line
+                        origin:
+                            - 196
+                            - -95
+                        end:
+                            - 196
+                            - -113
+                    bottom:
+                        type: line
+                        origin:
+                            - 196
+                            - -113
+                        end:
+                            - 178
+                            - -113
+                    left:
+                        type: line
+                        origin:
+                            - 178
+                            - -113
+                        end:
+                            - 178
+                            - -95
+                origin:
+                    - 0
+                    - 0
+            matrix_inner_bottom:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 197
+                            - -138
+                        end:
+                            - 215
+                            - -138
+                    right:
+                        type: line
+                        origin:
+                            - 215
+                            - -138
+                        end:
+                            - 215
+                            - -156
+                    bottom:
+                        type: line
+                        origin:
+                            - 215
+                            - -156
+                        end:
+                            - 197
+                            - -156
+                    left:
+                        type: line
+                        origin:
+                            - 197
+                            - -156
+                        end:
+                            - 197
+                            - -138
+                origin:
+                    - 0
+                    - 0
+            matrix_inner_home:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 197
+                            - -119
+                        end:
+                            - 215
+                            - -119
+                    right:
+                        type: line
+                        origin:
+                            - 215
+                            - -119
+                        end:
+                            - 215
+                            - -137
+                    bottom:
+                        type: line
+                        origin:
+                            - 215
+                            - -137
+                        end:
+                            - 197
+                            - -137
+                    left:
+                        type: line
+                        origin:
+                            - 197
+                            - -137
+                        end:
+                            - 197
+                            - -119
+                origin:
+                    - 0
+                    - 0
+            matrix_inner_top:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 197
+                            - -100
+                        end:
+                            - 215
+                            - -100
+                    right:
+                        type: line
+                        origin:
+                            - 215
+                            - -100
+                        end:
+                            - 215
+                            - -118
+                    bottom:
+                        type: line
+                        origin:
+                            - 215
+                            - -118
+                        end:
+                            - 197
+                            - -118
+                    left:
+                        type: line
+                        origin:
+                            - 197
+                            - -118
+                        end:
+                            - 197
+                            - -100
+                origin:
+                    - 0
+                    - 0
+            thumbfan_near_thumb:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 193.342128
+                            - -155.6426746
+                        end:
+                            - 210.6448386
+                            - -160.60414699999998
+                    right:
+                        type: line
+                        origin:
+                            - 210.6448386
+                            - -160.60414699999998
+                        end:
+                            - 205.68336620000002
+                            - -177.9068576
+                    bottom:
+                        type: line
+                        origin:
+                            - 205.68336620000002
+                            - -177.9068576
+                        end:
+                            - 188.3806556
+                            - -172.9453852
+                    left:
+                        type: line
+                        origin:
+                            - 188.3806556
+                            - -172.9453852
+                        end:
+                            - 193.342128
+                            - -155.6426746
+                origin:
+                    - 0
+                    - 0
+            thumbfan_home_thumb:
+                paths:
+                    top:
+                        type: line
+                        origin:
+                            - 215.7737542
+                            - -162.9136366
+                        end:
+                            - 231.3622114
+                            - -171.9136366
+                    right:
+                        type: line
+                        origin:
+                            - 231.3622114
+                            - -171.9136366
+                        end:
+                            - 222.3622114
+                            - -187.50209379999998
+                    bottom:
+                        type: line
+                        origin:
+                            - 222.3622114
+                            - -187.50209379999998
+                        end:
+                            - 206.7737542
+                            - -178.50209379999998
+                    left:
+                        type: line
+                        origin:
+                            - 206.7737542
+                            - -178.50209379999998
+                        end:
+                            - 215.7737542
+                            - -162.9136366
+                origin:
+                    - 0
+                    - 0
+        origin:
+            - 0
+            - 0
+units: mm
+origin:
+    - 0
+    - 0

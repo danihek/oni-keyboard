@@ -1,0 +1,131 @@
+meta:
+    version: 0.1v
+    author: danihek
+units:
+    px: cx + 2
+    py: cy + 2
+points:
+    zones:
+        matrix:
+            anchor:
+                shift:
+                    - 130
+                    - -150
+            columns:
+                pinky: null
+                ring:
+                    key:
+                        stagger: 8
+                middle:
+                    key:
+                        stagger: 6
+                index:
+                    key:
+                        stagger: -6
+                inner:
+                    key:
+                        stagger: -5
+            rows:
+                bottom:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -11.75
+                            - -9
+                home: null
+                top: null
+        thumbfan:
+            anchor:
+                ref: matrix_inner_bottom
+                shift:
+                    - -12
+                    - -19
+            columns:
+                near:
+                    key:
+                        origin:
+                            - 0
+                            - -20
+                        splay: -16
+                home:
+                    key:
+                        splay: -14
+                        origin:
+                            - -10
+                            - -10
+            rows:
+                thumb: null
+outlines:
+    normal:
+        -
+            what: rectangle
+            where: true
+            size:
+                - px
+                - py
+    keys:
+        -
+            what: rectangle
+            where: true
+            size:
+                - px
+                - py
+pcbs:
+    Øni:
+        outlines:
+            main:
+                outline: normal
+        footprints:
+            choc_hotswap:
+                what: choc
+                where: true
+                params:
+                    keycaps: true
+                    reverse: true
+                    hotswap: true
+                    from: '{{column_net}}'
+                    to: '{{colrow}}'
+            diode:
+                what: diode
+                where: true
+                params:
+                    from: '{{colrow}}'
+                    to: '{{row_net}}'
+                adjust:
+                    shift:
+                        - 0
+                        - -5
+            nicenano:
+                what: promicro
+                params:
+                    orientation: down
+                where:
+                    ref: matrix_inner_top
+                    rotate: -90
+                    shift:
+                        - 21
+                        - -19
+            oled:
+                what: oled
+                params:
+                    side: F
+                    SDA: P2
+                    SCL: P3
+                where:
+                    ref: matrix_inner_top
+                    rotate: -90
+                    shift:
+                        - 27
+                        - -36
+            reset:
+                what: button
+                params:
+                    from: GND
+                    to: RST
+                where:
+                    ref: matrix_inner_top
+                    rotate: -90
+                    shift:
+                        - 14
+                        - 5
