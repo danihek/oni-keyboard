@@ -3,9 +3,12 @@ meta:
   author: danihek
 
 units:
+  # Proxy Spacing Variables
+  kx: cx
+  ky: cy
   # Padding Variables
-  px: cx + 2
-  py: cy + 2
+  px: kx + 2
+  py: ky + 2
 
 points:
   zones:
@@ -15,7 +18,7 @@ points:
       columns:
         pinky:
         ring:
-          key.stagger: 8
+          key.stagger: 14
         middle:
           key.stagger: 6
         index:
@@ -29,35 +32,45 @@ points:
           key.origin: [-11.75, -9]
         home:
         top:
-    thumbfan:
+    thumb:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-12, -19]
+        shift: [-30, -14]
       columns:
         near:
-          key.origin: [0, -20]
+          key.origin: [0, 0]
           key.splay: -16
         home:
-          key.splay: -14
+          key.splay: -8
           key.origin: [-10, -10]
-      rows:
-        thumb:
+        end:
+          key.splay: -8
+          key.origin: [-10, -10]
 
 outlines:
-  normal:
+  raw:
     - what: rectangle
       where: true
+      bound: true
       size: [px, py]
   keys:
     - what: rectangle
       where: true
-      size: [px, py]
+      bound: false
+      size: [kx-0.5,ky-0.5]
+  board:
+    - what: polygon
+      points:
+        - ref: matrix_inner_bottom
+          shift: [0,0]
+        - ref: matrix_inner_top
+          shift: [0,10]
 
 pcbs:
   Øni:
     outlines:
       main:
-        outline: normal
+        outline: board
     footprints:
       choc_hotswap:
         what: choc

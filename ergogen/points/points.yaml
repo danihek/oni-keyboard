@@ -34,7 +34,7 @@ matrix_pinky_bottom:
                 pinky: null
                 ring: &ref_2
                     key:
-                        stagger: 8
+                        stagger: 14
                     rows: {}
                     name: ring
                 middle: &ref_3
@@ -141,10 +141,10 @@ matrix_pinky_top:
             - 0
 matrix_ring_bottom:
     x: 149
-    'y': -142
+    'y': -136
     r: 0
     meta:
-        stagger: 8
+        stagger: 14
         spread: 19
         splay: 0
         origin:
@@ -180,10 +180,10 @@ matrix_ring_bottom:
             - 10
 matrix_ring_home:
     x: 149
-    'y': -123
+    'y': -117
     r: 0
     meta:
-        stagger: 8
+        stagger: 14
         spread: 19
         splay: 0
         origin:
@@ -213,10 +213,10 @@ matrix_ring_home:
             - 10
 matrix_ring_top:
     x: 149
-    'y': -104
+    'y': -98
     r: 0
     meta:
-        stagger: 8
+        stagger: 14
         spread: 19
         splay: 0
         origin:
@@ -246,7 +246,7 @@ matrix_ring_top:
             - 0
 matrix_middle_bottom:
     x: 168
-    'y': -136
+    'y': -130
     r: 0
     meta:
         stagger: 6
@@ -285,7 +285,7 @@ matrix_middle_bottom:
             - 10
 matrix_middle_home:
     x: 168
-    'y': -117
+    'y': -111
     r: 0
     meta:
         stagger: 6
@@ -318,7 +318,7 @@ matrix_middle_home:
             - 10
 matrix_middle_top:
     x: 168
-    'y': -98
+    'y': -92
     r: 0
     meta:
         stagger: 6
@@ -351,7 +351,7 @@ matrix_middle_top:
             - 0
 matrix_index_bottom:
     x: 187
-    'y': -142
+    'y': -136
     r: 0
     meta:
         stagger: -6
@@ -390,7 +390,7 @@ matrix_index_bottom:
             - 0
 matrix_index_home:
     x: 187
-    'y': -123
+    'y': -117
     r: 0
     meta:
         stagger: -6
@@ -423,7 +423,7 @@ matrix_index_home:
             - 10
 matrix_index_top:
     x: 187
-    'y': -104
+    'y': -98
     r: 0
     meta:
         stagger: -6
@@ -456,7 +456,7 @@ matrix_index_top:
             - 10
 matrix_inner_bottom:
     x: 206
-    'y': -147
+    'y': -141
     r: 0
     meta:
         stagger: -5
@@ -495,7 +495,7 @@ matrix_inner_bottom:
             - 0
 matrix_inner_home:
     x: 206
-    'y': -128
+    'y': -122
     r: 0
     meta:
         stagger: -5
@@ -528,7 +528,7 @@ matrix_inner_home:
             - 10
 matrix_inner_top:
     x: 206
-    'y': -109
+    'y': -103
     r: 0
     meta:
         stagger: -5
@@ -559,9 +559,9 @@ matrix_inner_top:
             - 0
             - 10
             - 10
-thumbfan_near_thumb:
-    x: 199.5127471
-    'y': -166.7747661
+thumb_near:
+    x: 176
+    'y': -155
     r: -16
     meta:
         stagger: 0
@@ -569,7 +569,7 @@ thumbfan_near_thumb:
         splay: -16
         origin:
             - 0
-            - -20
+            - 0
         orient: 0
         shift:
             - 0
@@ -582,44 +582,50 @@ thumbfan_near_thumb:
         autobind: 10
         skip: false
         asym: both
-        colrow: near_thumb
-        name: thumbfan_near_thumb
+        colrow: near_default
+        name: thumb_near
         zone: &ref_7
             columns:
                 near: &ref_6
                     key:
                         origin:
                             - 0
-                            - -20
+                            - 0
                         splay: -16
                     rows: {}
                     name: near
                 home: &ref_8
                     key:
-                        splay: -14
+                        splay: -8
                         origin:
                             - -10
                             - -10
                     rows: {}
                     name: home
-            rows:
-                thumb: {}
-            name: thumbfan
+                end: &ref_9
+                    key:
+                        splay: -8
+                        origin:
+                            - -10
+                            - -10
+                    rows: {}
+                    name: end
+            name: thumb
         col: *ref_6
-        row: thumb
+        row: default
         bind:
             - 0
             - 0
             - 0
             - 0
-thumbfan_home_thumb:
-    x: 219.0679828
-    'y': -175.2078652
-    r: -30
+thumb_home:
+    x: 195.0978027
+    'y': -162.02526509999998
+    r: -24
     meta:
         stagger: 0
         spread: 19
-        splay: -14
+        splay: -8
         origin:
             - -10
             - -10
@@ -635,11 +641,44 @@ thumbfan_home_thumb:
         autobind: 10
         skip: false
         asym: both
-        colrow: home_thumb
-        name: thumbfan_home_thumb
+        colrow: home_default
+        name: thumb_home
         zone: *ref_7
         col: *ref_8
-        row: thumb
+        row: default
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+thumb_end:
+    x: 213.032019
+    'y': -171.640061
+    r: -32
+    meta:
+        stagger: 0
+        spread: 19
+        splay: -8
+        origin:
+            - -10
+            - -10
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: end_default
+        name: thumb_end
+        zone: *ref_7
+        col: *ref_9
+        row: default
         bind:
             - 0
             - 0

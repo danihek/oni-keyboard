@@ -2,8 +2,10 @@ meta:
     version: 0.1v
     author: danihek
 units:
-    px: cx + 2
-    py: cy + 2
+    kx: cx
+    ky: cy
+    px: kx + 2
+    py: ky + 2
 points:
     zones:
         matrix:
@@ -15,7 +17,7 @@ points:
                 pinky: null
                 ring:
                     key:
-                        stagger: 8
+                        stagger: 14
                 middle:
                     key:
                         stagger: 6
@@ -35,32 +37,37 @@ points:
                             - -9
                 home: null
                 top: null
-        thumbfan:
+        thumb:
             anchor:
                 ref: matrix_inner_bottom
                 shift:
-                    - -12
-                    - -19
+                    - -30
+                    - -14
             columns:
                 near:
                     key:
                         origin:
                             - 0
-                            - -20
+                            - 0
                         splay: -16
                 home:
                     key:
-                        splay: -14
+                        splay: -8
                         origin:
                             - -10
                             - -10
-            rows:
-                thumb: null
+                end:
+                    key:
+                        splay: -8
+                        origin:
+                            - -10
+                            - -10
 outlines:
-    normal:
+    raw:
         -
             what: rectangle
             where: true
+            bound: true
             size:
                 - px
                 - py
@@ -68,14 +75,29 @@ outlines:
         -
             what: rectangle
             where: true
+            bound: false
             size:
-                - px
-                - py
+                - kx-0.5
+                - ky-0.5
+    board:
+        -
+            what: polygon
+            points:
+                -
+                    ref: matrix_inner_bottom
+                    shift:
+                        - 0
+                        - 0
+                -
+                    ref: matrix_inner_top
+                    shift:
+                        - 0
+                        - 10
 pcbs:
     Øni:
         outlines:
             main:
-                outline: normal
+                outline: board
         footprints:
             choc_hotswap:
                 what: choc
