@@ -17,8 +17,8 @@ List of components:
 
 # Main PCB
 
-![./assests/oni-kb-preview.png]
+![alt](./assests/oni-kb-preview.png)
 
 ### Base (optional)
 
-![./assests/oni-base-preview.png]
+![alt](./assests/oni-base-preview.png)
