@@ -11,3 +11,4 @@ List of components:
 - 2x [Ez Solder Sockets and Headers](https://typeractive.xyz/products/ez-machine-sockets-and-headers?variant=46253860356327)
 - 2x [10x MBK Choc Rose Keycaps](https://typeractive.xyz/products/mbk-keycaps?variant=48512019464423)
 - 4x [10x MBK Choc Black Keycaps](https://typeractive.xyz/products/mbk-keycaps?variant=45419753079015)
+- 2x [Battery 3.7V 110mAh 301230](https://typeractive.xyz/products/lithium-battery-110mah)
