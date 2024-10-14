@@ -12,3 +12,13 @@ List of components:
 - 2x [10x MBK Choc Rose Keycaps](https://typeractive.xyz/products/mbk-keycaps?variant=48512019464423)
 - 4x [10x MBK Choc Black Keycaps](https://typeractive.xyz/products/mbk-keycaps?variant=45419753079015)
 - 2x [Battery 3.7V 110mAh 301230](https://typeractive.xyz/products/lithium-battery-110mah)
+
+# Showcase from JLCPCB Gerber viewer 
+
+# Main PCB
+
+![./assests/oni-kb-preview.png]
+
+### Base (optional)
+
+![./assests/oni-base-preview.png]
