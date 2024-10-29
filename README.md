@@ -6,6 +6,7 @@ List of components:
 
 - 2x [nice!nano v2.0](https://typeractive.xyz/products/nice-nano?variant=42225114546407)
 - 4x [10x Kailh Low Profile Choc Pink](https://typeractive.xyz/products/choc-switches?variant=45741919273191)
+- 4x [10x Kailh Choc Hotswap Sockets](https://typeractive.xyz/products/hotswap-sockets?variant=45742200324327)
 - 1x [2x Power Switch](https://typeractive.xyz/products/power-switch?variant=45597854171367)
 - 1x [2x Reset Button](https://typeractive.xyz/products/reset-button?variant=45597784932583)
 - 2x [Ez Solder Sockets and Headers](https://typeractive.xyz/products/ez-machine-sockets-and-headers?variant=46253860356327)
