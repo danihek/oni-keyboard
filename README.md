@@ -9,6 +9,7 @@ List of components:
 - 4x [10x Kailh Choc Hotswap Sockets](https://typeractive.xyz/products/hotswap-sockets?variant=45742200324327)
 - 1x [2x Power Switch](https://typeractive.xyz/products/power-switch?variant=45597854171367)
 - 1x [2x Reset Button](https://typeractive.xyz/products/reset-button?variant=45597784932583)
+- 4x [10x Kailh Hotswap Sockets](https://typeractive.xyz/products/hotswap-sockets?variant=45742200324327)
 - 2x [Ez Solder Sockets and Headers](https://typeractive.xyz/products/ez-machine-sockets-and-headers?variant=46253860356327)
 - 2x [10x MBK Choc Rose Keycaps](https://typeractive.xyz/products/mbk-keycaps?variant=48512019464423)
 - 4x [10x MBK Choc Black Keycaps](https://typeractive.xyz/products/mbk-keycaps?variant=45419753079015)
