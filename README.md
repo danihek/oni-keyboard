@@ -15,9 +15,26 @@ List of components:
 - 4x [10x MBK Choc Black Keycaps](https://typeractive.xyz/products/mbk-keycaps?variant=45419753079015)
 - 2x [Battery 3.7V 110mAh 301230](https://typeractive.xyz/products/lithium-battery-110mah)
 
-# Showcase from JLCPCB Gerber viewer 
+# Firmware
 
-# Main PCB
+I use it with the zmk, here is the conf:
+- https://github.com/danihek/oni-keyboard-zmk
+
+# Showcase
+
+## reddit post:
+- https://www.reddit.com/r/ErgoMechKeyboards/comments/1ibfym8/oni_keyboard_sweep36/
+
+(images from reddit)
+![image](https://github.com/user-attachments/assets/c81420be-4df6-4677-b3ff-03691f09d7fd)
+![image](https://github.com/user-attachments/assets/f2f4b018-47fe-401a-abc7-9d912215e699)
+![image](https://github.com/user-attachments/assets/565c8e98-10ad-43f5-acae-2eca7380ba8b)
+![image](https://github.com/user-attachments/assets/0dde9648-d517-46f0-bfca-8654861447c2)
+![image](https://github.com/user-attachments/assets/a1109b72-e26a-4009-8500-d8a03f3d2977)
+
+## from JLCPCB Gerber viewer
+
+### Main PCB
 
 ![alt](./assests/oni-kb-preview.png)
 
